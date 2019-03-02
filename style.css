@@ -12,7 +12,7 @@ body{
 .cover{
     height: 450px;
     padding: 50px;
-    background-image: url('/res/Banana.png');
+    background-image: url('Banana.png');
         /* How to insert an image from Laptop */
     background-size: cover;
     background-repeat: no-repeat;
