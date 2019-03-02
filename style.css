@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Questrial|Ropa+Sans');
+/*Why import the fonts? */
+
+* { padding: 0; margin: 0; }
+/*why reset CSS? */
+
+body{
+    padding-bottom: 250px;
+}
+/* Header */
+
+.cover{
+    height: 450px;
+    padding: 50px;
+    background-image: url('/res/Banana.png');
+        /* How to insert an image from Laptop */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box; 
+}
+
+.title {
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    position: relative;
+    top: 80%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.664)
+}
+
+/* End of Header*/
+
+/* Middle */
+.header {
+    font-size: 58px;
+    font-family: 'Bree Serif', serif;
+    color: rgba(30, 50, 95);
+    margin: 30px 0px 40px 180px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* margin-left: 170px;
+    margin-bottom: 300px; */
+}
+
+.article-title {
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin-right: 20px;
+}
+    
+.article-body {
+    font-size: 1em;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: justify;
+}
+
+.square {
+    background-color: lightgrey;
+    margin: 5px;
+    width: 48%;
+    height: 300px;
+    padding: 60px; 
+    box-sizing: border-box; 
+    /* float: left; */
+    display: inline-block;
+    overflow: hidden;
+}
+
+.square:hover {
+    outline: 6px solid rgb(0, 0, 0);
+    transition: all .3s;
+    outline-offset: -6px;
+}
+
+.bg-dark-gray {
+    background-color: rgb(27, 27, 27);
+    color: white;    
+}
+ /* End of Middle */
